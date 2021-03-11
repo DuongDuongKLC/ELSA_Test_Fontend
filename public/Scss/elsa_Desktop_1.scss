@@ -1,0 +1,539 @@
+body{
+    margin-top: 0;
+    margin-left: 0 ;
+}
+// Css for Header content of Desktop 1
+.desktop1-Header{
+    height: 94px;
+    width: 1480px;
+    left: -23px;
+    top: 0px;
+    position: relative;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(12, 36, 64, 0.1);
+    .dk_icon_headr{
+        position: absolute;
+        left: 652px;
+        top: 16px;
+    }
+    #dk_text{
+        color: #042132;
+        position: absolute;
+        top: 8px;
+        left: 740px;
+        height: 20px;
+        width: 16px;
+        font-size: 25px;
+    }
+    .bia_right{
+        position: absolute;
+        right: -450px;
+        height: 896px;
+        width: 414px;
+        top: 63px;
+        border-radius: 0px;
+        .bg_bia{
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        .pic_phone11{
+            position: absolute;
+            height: 400px;
+            width: 300px;
+            left: 44px;
+            top: -50px;
+            border-radius: 0px;
+        }
+    }
+}
+// Css for Mid content of Desktop 1 
+.desktop1_Mid{
+    height: 406px;
+    width: 1440px;
+    border-radius: 0px; 
+    position: relative;
+    overflow: hidden;
+    .v1{
+        position: absolute;
+        height: 109px;
+        width: 108.99998474121094px;
+        left: -60px;
+        top: 189px;
+        border-radius: 20px;
+        transform: rotate(45deg);
+        background: linear-gradient(152.47deg, #FFF35C 6.57%, #FF795B 117.47%);
+    }
+    .dk_box_text1{
+        position: absolute;
+        height: 112px;
+        width: 634px;
+        left: 114px;
+        top: 30px;
+        border-radius: nullpx;
+        #dk_text{
+            font-family: BrownVN;
+            font-size: 38px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 56px;
+            letter-spacing: 0em;
+            text-align: center;
+
+        }
+    }
+    .dk_box_text2{
+        position: absolute;
+        height: 33px;
+        width: 587px;
+        left: 137px;
+        top: 155px;
+        border-radius: nullpx;
+        #dk_text{
+            font-family: BrownVN;
+            font-size: 25px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 33px;
+            letter-spacing: 0em;
+            text-align: center;
+            color: #06BAE8;
+        }
+    }
+    .dk_box_register{
+        position: absolute;
+        height: 67px;
+        width: 274px;
+        left: 294px;
+        top: 250px;
+        border-radius: 20px;
+        background: linear-gradient(80.25deg, #3DFFC8 1.31%, #40F6CF 15.32%, #49DCE1 38.61%, #57B3FF 68.19%);
+        box-shadow: 0px 4px 8px rgba(46, 153, 241, 0.5);
+        border-radius: 20px;
+        #dk_text_register{
+            position: absolute;
+            font-family: BrownVN;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 30px;
+            line-height: 42px;
+            top: -18px;
+            left: 50px;
+            justify-content: center;
+            color: #FFFFFF;
+        }
+    }
+    .dk_picture{
+        position: absolute;
+        height: 459px;
+        width: 302px;
+        left: 944px;
+        top: -20px;
+        border-radius: 0px;
+        .svg1{
+            position: absolute;
+            height: 320.1650085449219px;
+            width: 320.7166442871094px;
+            left: -5px;
+            top: 75px;
+            border-radius: 0px;
+
+        }
+        .svg2{
+            position: absolute;
+            height: 250px;
+            width: 250px;
+            left: 30px;
+            top: 110px;
+            border-radius: 0px;
+
+        }
+        .svg3{
+            position: absolute;
+            height: 200px;
+            width: 200px;
+            left: 54px;
+            top: 135px;
+            border-radius: 0px;
+
+        }
+        .icon1{
+            position: absolute;
+            top: 145px;
+            left: -5px;
+        }
+        #lable1{
+            position: absolute;
+            top: 154px;
+            left: 8px;
+        }
+        .icon2{
+            position: absolute;
+            top: 250px;
+            left: -15px;
+        }
+        #lable2{
+            position: absolute;
+            top: 257px;
+            left: -8px;
+        }
+        .icon3{
+            position: absolute;
+            top: 165px;
+            left: 280px;
+        }
+        .icon4{
+            position: absolute;
+            top: 300px;
+            left: 276px;
+            height: 35px;
+            width: 35px;
+        }
+        #lable3{
+            position: absolute;
+            top: 180px;
+            left: 291px;
+        }
+        .img13{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            z-index: 2;
+        }
+    }
+    .right_color{
+        position: absolute;
+        height: 233px;
+        width: 233px;
+        left: 1276px;
+        top: 236px;
+        border-radius: 30px;
+        transform: rotate(45deg);
+        background: linear-gradient(152.47deg, rgba(255, 243, 92, 0.3) 6.57%, rgba(255, 121, 91, 0.3) 117.47%);
+    }
+}
+.desktop_Register{
+    height: 830px;
+    width: 1440px;
+    border-radius: 0px;
+    position: relative;
+    background: #0C2440;
+    overflow: hidden;
+    .box_register{
+        position: absolute;
+        height: 702px;
+        width: 600px;
+        left: 131px;
+        top: 65px;
+        border-radius: 20px;
+        background: white;
+        .reg_header{
+            height: 130px;
+            width: 600px;
+            left: 131px;
+            top: 0px;
+            background: linear-gradient(81.84deg, #49DCE1 1.09%, #39A3FB 96.86%);
+            box-shadow: 0px 4px 8px rgba(46, 153, 241, 0.5);
+            border-radius: 15px 15px 0px 0px;
+            .box_text{
+                position: absolute;
+                height: 98px;
+                width: 443px;
+                left: 75px;
+                top: 15px;
+                border-radius: nullpx;
+                p{
+                    position: absolute;
+                    top: -30px;
+                    font-family: BrownVN;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 34px;
+                    line-height: 49px;
+                    display: flex;
+                    align-items: center;
+                    text-align: center;
+                    color: #FFFFFF;
+                }
+            }
+        }
+
+        .icon_name1{
+            position: absolute;
+            top: 179px;
+            left: 32px;
+        }
+        .icon_name2{
+            position: absolute;
+            top: 162px;
+            left: 38px;
+        }
+        #text_name{
+            position: absolute;
+            height: 33px;
+            width: 96px;
+            left: 85px;
+            top: 163px;
+            border-radius: nullpx;
+            font-family: BrownVN;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 25px;
+            line-height: 33px;
+            display: flex;
+            align-items: center;
+
+            color: #06BAE8;
+        }
+        .input_name{
+            position: absolute;
+            width: 536px;
+            height: 60px;
+            left: 32px;
+            top: 205px;
+            background: #FFFFFF;
+            border: 2px solid #57B3FF;
+            box-sizing: border-box;
+            z-index: 6;
+            font-size: 30px;
+            padding-left: 20px;
+        }
+        .icon_phone{
+            position: absolute;
+            height: 30.00257110595703px;
+            width: 30px;
+            left: 32px;
+            top: 282px;
+            border-radius: 0px;
+        }
+        #text_phone{
+            position: absolute;
+            width: 167px;
+            height: 33px;
+            left: 82px;
+            top: 281px;
+
+            font-family: BrownVN;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 25px;
+            line-height: 33px;
+            display: flex;
+            align-items: center;
+
+            color: #06BAE8;
+        }
+        .input_phone{
+            position: absolute;
+            width: 536px;
+            height: 60px;
+            left: 32px;
+            top: 322px;
+            background: #FFFFFF;
+            border: 2px solid #57B3FF;
+            box-sizing: border-box;
+            z-index: 6;
+            font-size: 30px;
+            padding-left: 20px;
+        }
+        .icon_email{
+            position: absolute;
+            height: 21.515832901000977px;
+            width: 30px;
+            left: 32px;
+            top: 404px;
+            border-radius: 0px;
+        }
+        #text_email{
+            position: absolute;
+            width: 81px;
+            height: 33px;
+            left: 85px;
+            top: 398.97px;
+
+            font-family: BrownVN;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 25px;
+            line-height: 33px;
+            display: flex;
+            align-items: center;
+            color: #06BAE8;
+        }
+        .input_email{
+            position: absolute;
+            width: 536px;
+            height: 60px;
+            left: 32px;
+            top: 439px;
+            background: #FFFFFF;
+            border: 2px solid #57B3FF;
+            box-sizing: border-box;
+            z-index: 6;
+            font-size: 30px;
+            padding-left: 20px;
+        }
+        .post_register{
+            position: absolute;
+            height: 74px;
+            width: 530px;
+            left: 35px;
+            top: 595.9703369140625px;
+            background: linear-gradient(80.25deg, #3DFFC8 1.31%, #40F6CF 15.32%, #49DCE1 38.61%, #57B3FF 68.19%);
+            box-shadow: 0px 4px 8px rgba(46, 153, 241, 0.5);
+            border-radius: 20px;
+            #text_post{
+                position: absolute;
+                left: 150px;
+                top: -10px;
+                font-family: BrownVN;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 30px;
+                line-height: 42px;
+                display: flex;
+                align-items: center;
+                color: #FFFFFF;
+            }
+        }
+        #gst1{
+            position: absolute;
+            width: 160px;
+            height: 33px;
+            left: 88px;
+            top: 527.97px;
+            font-family: BrownVN;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 25px;
+            line-height: 33px;
+            display: flex;
+            align-items: center;
+
+            color: #000000;
+        }
+        #gst2{
+            position: absolute;
+            width: 160px;
+            height: 33px;
+            left: 435px;
+            top: 527.97px;
+            font-family: BrownVN;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 25px;
+            line-height: 33px;
+            display: flex;
+            align-items: center;
+
+            color: #000000;
+
+        }
+        #check_1year{
+            position: absolute;
+            height: 40px;
+            width: 40px;
+            left: 32px;
+            top: 523px;
+            border-radius: 0px;
+        }
+        #check_allyear{
+            position: absolute;
+            height: 40px;
+            width: 40px;
+            left: 379px;
+            top: 523px;
+            border-radius: 0px;
+            z-index: 5;
+        }
+        #pray_1y{
+            position: absolute;
+            width: 160px;
+            height: 33px;
+            left: 88px;
+            top: 550.97px;
+            font-family: BrownVN;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 20px;
+            line-height: 33px;
+            display: flex;
+            align-items: center;
+            color: #000000;
+            visibility: hidden;
+        }
+        #pray_ally{
+            position: absolute;
+            width: 165px;
+            height: 33px;
+            left: 435px;
+            top: 550.97px;
+            font-family: BrownVN;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 20px;
+            line-height: 33px;
+            display: flex;
+            align-items: center;
+            visibility: hidden;
+            color: #000000;
+        }
+    }
+    .box_picture{
+        position: absolute;
+        width: 1139px;
+        height: 713px;
+        left: 440px;
+        top: 122px;
+        z-index: 2;
+    }
+    .bety{
+        position: absolute;
+        left: 859px;
+        top: 34px;
+    }
+    .vn1{
+        position: absolute;
+        height: 90px;
+        width: 90px;
+        right: 40px;
+        top: 460px;
+        border-radius: 20px;
+        transform: rotate(45deg);
+        background: palevioletred;
+    }
+    .vn2{
+        position: absolute;
+        height: 60px;
+        width: 60px;
+        right: 220px;
+        top: 180px;
+        border-radius: 15px;
+        transform: rotate(45deg);
+        background: orange;
+    }
+    .vn3{
+        position: absolute;
+        height: 150px;
+        width: 150px;
+        bottom: 70px;
+        right: 450px;
+        border-radius: 50%;
+        background: rgb(47, 175, 207);
+    }
+    .vn4{
+        position: absolute;
+        height: 40px;
+        width: 40px;
+        bottom: 240px;
+        right: 600px;
+        border-radius: 50%;
+        background: rgb(47, 175, 207);
+    }
+}
+.desktop_end{
+    height: 1461px;
+    width: 1971px;
+    overflow: hidden;
+    border-radius: 0px;
+}
